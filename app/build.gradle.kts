@@ -20,6 +20,16 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
     }
+
+    // ▼▼▼ 여기에 이 7줄을 추가해 주세요 ▼▼▼
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+    // ▲▲▲ 추가 끝 ▲▲▲
 }
 
 dependencies {
