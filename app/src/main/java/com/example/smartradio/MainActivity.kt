@@ -176,8 +176,7 @@ fun RadioAppScreen() {
                     Text("가사 검색 결과", color = Color(0xFF00E5FF), fontWeight = FontWeight.Bold, fontSize = 18.sp)
                     Spacer(modifier = Modifier.height(16.dp))
                     Text(
-                        "현재 재생 중인 곡의 가사를 불러옵니다.
-(API 연동 시 실제 가사 표시)",
+                        "현재 재생 중인 곡의 가사를 불러옵니다.\n(API 연동 시 실제 가사 표시)",
                         color = Color.White
                     )
                     Spacer(modifier = Modifier.height(24.dp))
